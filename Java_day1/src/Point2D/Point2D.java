@@ -30,14 +30,7 @@ public class Point2D {
 				}
 			}
 			
-			void newPoint()
-			{
-				x = 6;
-				y = 5;
-				System.out.println(x+"  "+y);
-				
-				
-			}
+			
 	
 
 	public static void main(String[] args) {
