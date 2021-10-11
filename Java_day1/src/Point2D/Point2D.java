@@ -29,6 +29,15 @@ public class Point2D {
 					System.out.println("false");
 				}
 			}
+	      
+	
+	           void newPoint(int xoff,int yoff)
+		   {
+			   x=x+xoff;
+			   y=y+yoff;
+			   System.out.println(x+"  "+y);
+		   }		   
+			   
 			
 			
 	
@@ -43,7 +52,7 @@ public class Point2D {
 	    
 	    point.display();
 	    point.isEqual();
-	    point.newPoint();
+	    point.newPoint(4,6);
 		
 
 	}
